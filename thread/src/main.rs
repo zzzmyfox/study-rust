@@ -11,5 +11,5 @@ fn main() {
     handle.join().unwrap();
 
 
-    thread::sleep(Duration::from_secs(10));
+    sleep(Duration::from_secs(10));
 }
